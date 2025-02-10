@@ -1,0 +1,242 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "WarlocksOfTheCat",
+        "abbreviation": "WotCat",
+        "full": "Warlocks of the Cat",
+        "authors": ["Warlock of the Cat"],
+        "convertedBy": ["Warlock of the Cat"],
+        "version": "1.0.0",
+        "color": "7a11f2",
+        "url": "https://drive.google.com/drive/u/1/folders/15Ois2CRmhINkToQEmV6ht1hMogGofE9d"
+      }
+    ],
+    "dateAdded": 1739219362,
+    "dateLastModified": 1739219362,
+    "edition": "one"
+  },
+  "race": [
+    {
+      "name": "Beastfolk",
+      "source": "WotCat",
+      "edition": "one",
+      "size": ["S", "M"],
+      "speed": 30,
+      "sizeEntry": {
+        "type": "item",
+        "name": "Size:",
+        "entries": [
+          "Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+        ]
+      },
+      "additionalSpells": [
+        {
+          "ability": "cha",
+          "known": {
+            "1": ["speak with animals|xphb"]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin Animal",
+          "entries": [
+            "Choose a creature (must be a Beast) to become your Origin Animal. Your appearance has several traits of that creature. If it has wings or tail, so do you. You may want other characteristics to be present depending on the chosen animal, such as a turtle shell or bird talons for example."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Animal Bloodline",
+          "entries": [
+            "Depending on the chosen Origin Animal, you belong to one of the following bloodlines: Mammal, Bird, Reptile, Amphibian or Fish. For animals not based on real creatures, consult your DM."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Additional Movement",
+          "entries": [
+            "You gain the Swim and Flying speed your Origin Animal has, but they are limited to 15 feet. If you have flying speed, you are unable to fly while wearing medium or heavy armor."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Natural Weapons",
+          "entries": [
+            "You have all natural weapons of your Origin Animal. They deal {@damage 1d8} damage, keeping the same damage type as the original. The range for those natural weapons becomes 5 feet, and it keeps none of it's additional effects."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Animal Communication",
+          "entries": [
+            "You know the {@spell Speak with Animals|XPHB}. Once per Long Rest, you can cast this spell without expending a spell slot."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Animal Inheritance",
+          "entries": [
+            "Select one of the following Animal Inheritances you fulfil the prerequisites for:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Agile",
+                  "entries": [
+                    "**Prerequisite:** None.\n**Description:** You choose between an additional 10 feet in your walking speed, or and additional 5 feet in walking speed and one other movement speed you already have."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Darkvision",
+                  "entries": [
+                    "**Prerequisite:** Origin Animal must have Darkvision.\n**Description:** You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Inherit Trait",
+                  "entries": [
+                    "**Prerequisite:** DM's approval.\n**Description:** You get one feature or sense from your Origin Animal's stat block."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Sharp Senses",
+                  "entries": [
+                    "**Prerequisite:** None.\n**Description:** You have advantage on Wisdom (Perception) checks that rely on either hearing or sight. You can only choose one of the two senses."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Bloodline Inheritance",
+          "entries": [
+            "Select one of the following Bloodline Inheritances you fulfil the prerequisites for:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Extra Animal Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Mammal Bloodline.\n**Description:** Choose another Animal Inheritance. You can't choose the same one twice."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Natural Armor",
+                  "entries": [
+                    "**Prerequisite:** Reptile Bloodline.\n**Description:** Your AC is 15 when not wearing armor."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Naturally Stealthy",
+                  "entries": [
+                    "**Prerequisite:** Mammal, Bird or Reptile Bloodline.\n**Description:** You have proficiency in Dexterity (Stealth) and Wisdom (Perception)."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Poison Resistance",
+                  "entries": [
+                    "**Prerequisite:** Amphibian Bloodline.\n**Description:** You have {@resistance Poison|XPHB}."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Powerful Flight",
+                  "entries": [
+                    "**Prerequisite:** Bird Bloodline; Must have Flying Speed.\n**Description:** Your Flying Speed becomes 30 feet and you are able to fly even when wearing medium armor."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Slow Fall",
+                  "entries": [
+                    "**Prerequisite:** Bird Bloodline.\n**Description:** You don't take fall damage unless your Movement Speed is reduced to 0 feet (such as in effects like the Paralyzed condition)."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Water Adaptability",
+                  "entries": [
+                    "**Prerequisite:** Fish Bloodline.\n**Description:** Your Swimming Speed becomes 30 feet and you are able to breathe underwater."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Tabaxi Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Mammal Bloodline (must be Feline).\n**Description:** You get the Feline Agility feature from the Tabaxi race."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Kenku Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Bird Bloodline; Crow as Origin Animal.\n**Description:** You get the Mimicry feature from the Kenku race."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Tortle Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Reptile Bloodline; Turtle as Origin Animal; Can't pick Bloodline Inheritance (Natural Armor).\n**Description:** You get the Natural Armor feature from the Tortle race."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Loxodon Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Mammal Bloodline; Elephant as Origin Animal.\n**Description:** You get the Trunk feature from the Loxodon race."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Harengon Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Mammal Bloodline; Rabbit as Origin Animal.\n**Description:** You get the Rabbit Hop feature from the Harengon race."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Lizardfolk Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Reptile Bloodline.\n**Description:** You get the Hungry Jaws feature from the Lizardfolk race."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "Minotaur Inheritance",
+                  "entries": [
+                    "**Prerequisite:** Mammal Bloodline; Bull as Origin Animal.\n**Description:** You get the Hammering Horns feature from the Minotaur race."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "raceFluff": [
+    {
+      "name": "Beastfolk",
+      "source": "WotCat",
+      "entries": [
+        "The beastfolk are humanoid beings with strong animal characteristics. It is said that the very first members of this race were once humans, blessed by mother nature, gaining a deep connection to it and it's creations.\nThey have the head of an animal, and several body traits of such animals, like wings, gills or tail even. There are as many types of them as there are animals."
+      ]
+    }
+  ]
+}
