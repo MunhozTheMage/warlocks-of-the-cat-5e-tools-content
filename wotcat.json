@@ -13,6 +13,7 @@
         "url": "https://drive.google.com/drive/u/1/folders/15Ois2CRmhINkToQEmV6ht1hMogGofE9d"
       }
     ],
+    "internalCopies": ["raceFluff"],
     "dateAdded": 1739219362,
     "dateLastModified": 1739219362,
     "edition": "one"
@@ -228,11 +229,17 @@
           ]
         }
       ],
-      "fluff": {
-        "entries": [
-          "The beastfolk are humanoid beings with strong animal characteristics. It is said that the very first members of this race were once humans, blessed by mother nature, gaining a deep connection to it and it's creations.\nThey have the head of an animal, and several body traits of such animals, like wings, gills or tail even. There are as many types of them as there are animals."
-        ]
-      }
+      "hasFluff": true,
+      "hasFluffImages": false
+    }
+  ],
+  "raceFluff": [
+    {
+      "name": "Beastfolk",
+      "source": "WotCat",
+      "entries": [
+        "The beastfolk are humanoid beings with strong animal characteristics. It is said that the very first members of this race were once humans, blessed by mother nature, gaining a deep connection to it and it's creations.\nThey have the head of an animal, and several body traits of such animals, like wings, gills or tail even. There are as many types of them as there are animals."
+      ]
     }
   ]
 }
